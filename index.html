@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Job Application Form</title>
-  <link rel="stylesheet" href="./styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
 </head>
 <body>
-  
+    <div class="container">
+        <form method="" action="">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <label for="email">Email</label>
+            <input tyep="email" id="email">
+            <lable for="positon">Position</lable>
+            <select id="position">
+                <option>waiter</option>
+                <option>cook</option>
+                <option>dishwasher</option>
+            </select>
+            <fieldset class="radio-group">
+                <label for="full-time">Full-Time</label>
+                <input type="radio" id="full-time" name="availability">
+                <label for="part-time">Part-Time</label>
+                <input type="radio" id="part-time" name="availability">
+            </filedset>
+            <textarea id="message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
